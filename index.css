@@ -315,7 +315,99 @@ input[onclick="button"]:hover{
     color: white;
     background: orange;
 }
-
+@media only screen and (max-width: 480px){
+    .container{
+    height: 40vh;
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .navleft{
+    width: 100%;
+    height: 50%; 
+    border: 2px solid blue;
+    }
+    .navright{
+    width: 100%;
+    height: 50%; 
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    }
+    .sec1{
+        width: 100%;
+        height: 100%;
+    }
+    .profile1{
+        width: 100%;
+        height: 100%;
+        padding-top: 45vh;
+    }
+    .sec2{
+        width: 100%;
+        height:60vh ;
+    }
+    .profile2{
+        width: 100%; 
+    }
+    .sec3{
+        width: 100%;
+        height:220vh ;
+    }
+    .profile3{
+        width: 100%;
+        flex-direction: column;  
+    }
+    .box{
+        width: 100%;
+    }
+    .sec4{
+        width: 100%;
+        height: 200vh;
+    }
+    .project-img{
+        flex-direction: column;
+    }
+    .sec5{
+        width: 100%;
+        height: 280vh;
+        background: plum;
+    }
+    .blog-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-butt{
+        padding-bottom: 10vh;
+    }
+    .sec6{
+        width: 100%;
+        height: 270vh;
+    }
+    .review-img{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .review-img .img{
+        margin-bottom: 10vh;
+    }
+    footer{
+        width: 100%;
+        height: 200vh;
+        background: navy;
+    }
+    .footer-con{
+        flex-direction: column;
+        align-items: center;
+    }
+    .side{
+        width: 100%;
+    }
+}
 
 
 
